@@ -26,15 +26,16 @@ body {
     right: 200px;
     width: 940px;
     height: 228px;
-    /* background-color: #FFEEE3; */
-    border: solid 5px white;
+    background-color: #FBC9A6;
+    /* border: solid 5px white; */
 }
 
 #portrait-container {
     position: absolute;
-    left: 0px;
-    width: 228px;
-    height: 228px;
+    margin-top: 14px;
+    left: 14px;
+    width: 200px;
+    height: 200px;
     background-color: #FFEEE3;
 }
 
@@ -44,7 +45,7 @@ body {
     left: 270px;
     height: 90px;
     width: 90px;
-    background-color: white;
+    background-color: #FBC9A6;
 }
 
 #name {
@@ -53,9 +54,9 @@ body {
     text-align: center;
     align-self: center;
     left: 280px;
-    height: 192px;
+    height: 160px;
     width: 380px;
-    font-size: 75px;
+    font-size: 65px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #E7A477;
 }
@@ -66,14 +67,73 @@ body {
     right: 270px;
     height: 90px;
     width: 90px;
-    background-color: white;
+    background-color: #FBC9A6;
 }
 
 #logo-container {
     position: absolute;
-    right: 0px;
-    width: 228px;
-    height: 228px;
+    margin-top: 14px;
+    right: 14px;
+    width: 200px;
+    height: 200px;
     color: white;
+    background-color: #FFEEE3;
+}
+
+#navigation-bar {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: 228px;
+    width: 930px;
+    height: 88px;
+    background-color: #FBC9A6;
+    border: solid 5px #E7A477;
+}
+
+.nav-boxes {
+    position: absolute;
+    margin-top: 22px;
+    width: 100px;
+    height: 45px;
+    background-color: #E7A477;
+}
+
+#nav-box-one {
+    left: 150px;
+}
+
+#nav-box-three {
+    right: 150px;
+}
+
+/* #decor-line {
+    position: absolute;
+    margin-top: 341px;
+    width: 940px;
+    height: 15px;
+    background-color: #FBC9A6;
+} */
+
+.section-boxes {
+    color: white;
+    text-align: center;
+    height: 80px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #E7A477;
+}
+
+#about-box {
+    position: absolute;
+    width: 250px;
+    margin-top: 400px;
+}
+
+#about-text {
+    position: absolute;
+    margin-top: 510px;
+    width: 550px;
+    height: 200px;
     background-color: #FFEEE3;
 }
